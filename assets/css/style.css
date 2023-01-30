@@ -33,6 +33,15 @@ h3 {
     letter-spacing: -0.02em;
     color: #212529;
 }
+.small-size {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
 h4 {
     font-family: 'Inter';
     font-style: normal;
@@ -72,6 +81,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.second-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .container {
     padding: 140px 220px;
@@ -440,3 +454,6 @@ ul li {
 .arrow-btn button:hover {
     border: 3px solid #4F9CF9;
 }
+
+
+
